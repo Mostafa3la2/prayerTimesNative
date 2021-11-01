@@ -1,0 +1,8 @@
+//
+//  Prayer.swift
+//  PrayerTime
+//
+//  Created by Mostafa on 25/01/2021.
+//
+
+import Foundation
