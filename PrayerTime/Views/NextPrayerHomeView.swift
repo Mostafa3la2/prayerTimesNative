@@ -9,7 +9,18 @@ import SwiftUI
 
 struct NextPrayerHomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack(alignment:.center,spacing:10) {
+            Text("6:20").font(Font.custom("ReemKufi-Regular", size: 35))
+            HStack{
+                Image("sun")
+                Text("Maghrib")
+            }
+            HStack{
+                Text("Remaining: ")
+                Text("00:15")
+            }
+        }.background(Image("sunny").resizable().scaledToFill())
     }
 }
 
