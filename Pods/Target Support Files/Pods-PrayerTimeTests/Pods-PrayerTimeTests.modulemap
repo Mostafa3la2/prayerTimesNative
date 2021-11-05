@@ -1,0 +1,6 @@
+framework module Pods_PrayerTimeTests {
+  umbrella header "Pods-PrayerTimeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
